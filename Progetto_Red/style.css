@@ -1,0 +1,218 @@
+
+h1{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+    font-size: 60px;
+    letter-spacing: 30px;
+}
+
+li{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14px;
+}
+
+.quote{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 14px;
+    background-color: #ececec;
+    border: none;
+}
+
+h2{
+    font-family: 'Nova Square', cursive;
+    color: darkred;
+    font-size: 38px;
+}
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+h3{
+    font-family: 'Rajdhani', sans-serif;
+    color: darkred;
+    font-size: 28px;
+}
+
+.testo-timeline{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.font-cerchietti{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+h5{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: darkred;
+}
+
+em{
+    position: relative;
+}
+
+em::before{
+    content: open-quote;
+    font-size: 70px;
+    color: darkred;
+    position: absolute;
+    transform: translate(-40px, -30px);
+}
+
+em::after{
+    content: close-quote;
+    font-size: 70px;
+    color: darkred;
+    position: absolute;
+    transform: translate(0px, -12px);
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+header{
+    background: url(./media/mountains2.png), linear-gradient(rgb(255,255,255),rgba(255, 255, 255, 0)), url(./media/switzerland-862870_1920.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.lorem{
+    background-color: #ececec;
+
+}
+
+.icone{
+    color: darkred;
+    font-size: 30pt !important;
+}
+
+.larghezza-div{
+    width: 18%;
+}
+
+.effetto-card{
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: darkred;
+    position: relative;
+}
+
+.cerchio-card{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 1px darkred solid;
+    border-radius: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.bottone{
+    background-color: darkred;
+    color: white;
+}
+
+.div-bottone{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./media/trees2.png), #ececec;
+    background-size: cover;
+    background-position: center;
+}
+
+.effetto-timeline{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-left-style: solid;
+    border-color:darkred;
+    border-width: 3px;
+    position: relative;
+}
+
+.cerchio-timeline{
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    border: 1px darkred solid;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+/* Fine timeline */
+
+
+
+.div-lista-dx{
+    background: url();
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 0px;
+}
+
+.immagine-rotonda{
+    height: 85px;
+    width: 85px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div-rotondo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: solid 2px darkred;
+    border-radius: 50%;
+}
+
+.immagine-rotonda-2{
+    height: 130px;
+    width: 130px;
+    border: 0px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div-rotondo-2{
+    height: 145px;
+    width: 145px;
+    position: relative;
+    border: solid 2px darkred;
+    border-radius: 50%;
+}
+
+.ultimo-div{
+    height: 50vh;
+    background: url(./media/other.png), #ececec;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background-color: darkred;
+    padding-top: 50px;
+}
